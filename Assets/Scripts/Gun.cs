@@ -21,6 +21,6 @@ public class Gun : MonoBehaviour
 
     void Fire()
     {
-        Instantiate(shotModel, transform.position, Quaternion.identity);
+        Instantiate(shotModel, transform.position, transform.rotation);
     }
 }

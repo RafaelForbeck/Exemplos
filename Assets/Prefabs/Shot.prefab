@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3034684833399640229}
   - component: {fileID: 6525076532528307974}
   - component: {fileID: 3829703551157367087}
+  - component: {fileID: 3275930389990142667}
   m_Layer: 0
   m_Name: Shot
   m_TagString: Untagged
@@ -98,7 +99,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4f2c13b346ced241a7ab4685dc4630b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 20
+--- !u!58 &3275930389990142667
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890113169097777685}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.2}
+  serializedVersion: 2
+  m_Radius: 0.09
 --- !u!1 &7361072448337266121
 GameObject:
   m_ObjectHideFlags: 0
